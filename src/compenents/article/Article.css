@@ -1,0 +1,118 @@
+.for__sell {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background: #ff3465;
+}
+.for__sell__faslse {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background: #ff3465;
+}
+.seel__and__medicine {
+  width: 377px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+  align-items: center;
+}
+.slimming__gel {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left;
+}
+.gel__for__body {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c66;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.first__price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #1a1a1a;
+}
+.second__price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #bcbcbc;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.article__card {
+  display: grid;
+  height: 474px;
+  width: 377px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.article__card__titles {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.arrows__longs {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.new {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+.cardss {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
