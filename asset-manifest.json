@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homework-Number-4/static/css/main.a336f3ef.css",
-    "main.js": "/homework-Number-4/static/js/main.7a01c43c.js",
+    "main.css": "/homework-Number-4/static/css/main.c41f031a.css",
+    "main.js": "/homework-Number-4/static/js/main.d840e2b1.js",
     "static/media/section-img.svg": "/homework-Number-4/static/media/section-img.8c79da8b76e2dd11df599a410fbfd319.svg",
     "static/media/header__img.svg": "/homework-Number-4/static/media/header__img.c6db6485286e4b992594069aa5401999.svg",
     "static/media/image 12.svg": "/homework-Number-4/static/media/image 12.97f7162f03e83964e693753d0ea20dbb.svg",
@@ -16,11 +16,11 @@
     "static/media/thin_long_02_right.svg": "/homework-Number-4/static/media/thin_long_02_right.c7ab9e140dbbd35d95028a7b91862f1b.svg",
     "static/media/long_right.svg": "/homework-Number-4/static/media/long_right.8980cf7defcbf9d69a49381e73de4bb4.svg",
     "static/media/long_left.svg": "/homework-Number-4/static/media/long_left.cab01cd79f5313049c7b9698d6252f65.svg",
-    "main.a336f3ef.css.map": "/homework-Number-4/static/css/main.a336f3ef.css.map",
-    "main.7a01c43c.js.map": "/homework-Number-4/static/js/main.7a01c43c.js.map"
+    "main.c41f031a.css.map": "/homework-Number-4/static/css/main.c41f031a.css.map",
+    "main.d840e2b1.js.map": "/homework-Number-4/static/js/main.d840e2b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a336f3ef.css",
-    "static/js/main.7a01c43c.js"
+    "static/css/main.c41f031a.css",
+    "static/js/main.d840e2b1.js"
   ]
 }
