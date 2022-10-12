@@ -10,6 +10,9 @@ import bgImage from "../../assets/img/header__img.svg";
 import Section from "../section/Section";
 import Article from "../article/Article";
 import Aside from "../aside/Aside";
+import Select from "../select/Select";
+import List from "../ul-list/List";
+import Icons from "../icons/Icons";
 
 const headerData = [
   { id: 1, lists: "Каталог" },
@@ -37,18 +40,7 @@ function Content() {
     >
       <div className="container">
         <div className="header__location">
-          <div className="location">
-            <select name="" id="select">
-              <option value="Bishkek">Bishkek</option>
-              <option value="Chui">Chui</option>
-              <option value="Naryn">Naryn</option>
-              <option value="Talas">Talas</option>
-              <option value="Batken">Batken</option>
-              <option value="Issyk-kol">Issyk-kol</option>
-              <option value="Osh">Osh</option>
-              <option value="Jalal-abad">Jalal-abad</option>
-            </select>
-          </div>
+          <Select />
           <div className="phone__number">8 495 259 25 00</div>
         </div>
         <div className="wrapper">
@@ -56,21 +48,9 @@ function Content() {
             <figure className="logo">
               <img src={logo} alt="logo" />
             </figure>
-            <ul className="header__lists">
-              {headerData.map((item) => {
-                return <li key={item.id}>{item.lists}</li>;
-              })}
-            </ul>
+            <List headerData={headerData} />
           </div>
-          <div className="icons">
-            {headerUrl.map((item) => {
-              return (
-                <figure key={item.id}>
-                  <img src={item.url} alt="search" />
-                </figure>
-              );
-            })}
-          </div>
+          <Icons headerUrl={headerUrl} />
         </div>
       </div>
       <HeaderImage bgimg={bgImage} />

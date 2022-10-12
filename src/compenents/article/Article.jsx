@@ -41,7 +41,7 @@ const data = [
     realPrice: "2 480 руб",
     oldPrice: "3579 руб",
     url: `${bgImgWithBigSeptic}`,
-    sell: true,
+    sell: false,
   },
 ];
 

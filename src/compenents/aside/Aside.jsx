@@ -38,7 +38,7 @@ function Aside() {
           return (
             <div className="big__card" key={item.id}>
               <figure>
-                <img src={item.url} alt="" />
+                <img src={item.url} alt={item.title} />
               </figure>
               <div className="balzam__black">
                 <div className="black__foog">{item.name}</div>
