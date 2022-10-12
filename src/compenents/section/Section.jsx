@@ -9,7 +9,6 @@ const titleData = [
   { title: `Наличный  и безналичный расчет`, id: 3 },
   { title: `Доставка  по всей России`, id: 4 },
 ];
-console.log((<br />).type);
 function Section() {
   return (
     <section>
