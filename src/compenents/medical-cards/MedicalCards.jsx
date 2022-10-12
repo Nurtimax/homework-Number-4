@@ -1,12 +1,15 @@
 import React from "react";
 
 function MedicalCards({ h1, title, realPrice, oldPrice, img, sell }) {
-    console.log(img);
   return (
     <div>
       <div className="article__card">
         <div className="seel__and__medicine">
-          {sell ? <div className="for__sell">sell</div> : <div className="for__sell__false"></div>}
+          {sell ? (
+            <div className="for__sell">sell</div>
+          ) : (
+            <div className="for__sell__false"></div>
+          )}
           <figure>
             <img src={img} alt="medical" />
           </figure>

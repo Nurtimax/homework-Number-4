@@ -39,7 +39,7 @@ function Section() {
         <div className="cards">
           {titleData.map((item) => {
             return (
-              <div className="card">
+              <div className="card" key={item.id}>
                 <span>{item.title}</span>
               </div>
             );

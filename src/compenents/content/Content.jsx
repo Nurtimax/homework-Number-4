@@ -22,27 +22,32 @@ const headerData = [
 
 const headerUrl = [
   { id: 1, url: searchIcon },
-  { id: 1, url: heartIcon },
-  { id: 1, url: basketIcon },
-  { id: 1, url: personIcon },
+  { id: 2, url: heartIcon },
+  { id: 3, url: basketIcon },
+  { id: 4, url: personIcon },
 ];
 
 function Content() {
   return (
-    <header className="header">
+    <header
+      className="header"
+      key={headerData.forEach((item) => {
+        return item.id;
+      })}
+    >
       <div className="container">
         <div className="header__location">
           <div className="location">
-          <select name="" id="select">
-            <option value="Bishkek">Bishkek</option>
-            <option value="Chui">Chui</option>
-            <option value="Naryn">Naryn</option>
-            <option value="Talas">Talas</option>
-            <option value="Batken">Batken</option>
-            <option value="Issyk-kol">Issyk-kol</option>
-            <option value="Osh">Osh</option>
-            <option value="Jalal-abad">Jalal-abad</option>
-          </select>
+            <select name="" id="select">
+              <option value="Bishkek">Bishkek</option>
+              <option value="Chui">Chui</option>
+              <option value="Naryn">Naryn</option>
+              <option value="Talas">Talas</option>
+              <option value="Batken">Batken</option>
+              <option value="Issyk-kol">Issyk-kol</option>
+              <option value="Osh">Osh</option>
+              <option value="Jalal-abad">Jalal-abad</option>
+            </select>
           </div>
           <div className="phone__number">8 495 259 25 00</div>
         </div>
@@ -53,14 +58,14 @@ function Content() {
             </figure>
             <ul className="header__lists">
               {headerData.map((item) => {
-                return <li>{item.lists}</li>;
+                return <li key={item.id}>{item.lists}</li>;
               })}
             </ul>
           </div>
           <div className="icons">
             {headerUrl.map((item) => {
               return (
-                <figure>
+                <figure key={item.id}>
                   <img src={item.url} alt="search" />
                 </figure>
               );
@@ -71,8 +76,8 @@ function Content() {
       <HeaderImage bgimg={bgImage} />
       <Section />
       <Article />
-      <Aside/>
-      <Article/>
+      <Aside />
+      <Article />
     </header>
   );
 }

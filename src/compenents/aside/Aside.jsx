@@ -36,7 +36,7 @@ function Aside() {
       <div className="bigest__card">
         {data.map((item) => {
           return (
-            <div className="big__card">
+            <div className="big__card" key={item.id}>
               <figure>
                 <img src={item.url} alt="" />
               </figure>

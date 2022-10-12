@@ -6,7 +6,6 @@ import bgImgWithBigSeptic from "../../assets/img/Photo.svg";
 import MedicalCards from "../medical-cards/MedicalCards";
 import Next from "../next-content/Next";
 
-
 const data = [
   {
     id: 1,
@@ -50,7 +49,7 @@ function Article(props) {
   return (
     <article>
       <div className="container">
-        <Next/>
+        <Next />
         <div className="cardss">
           {data.map((item) => {
             return (

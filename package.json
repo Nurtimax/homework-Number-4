@@ -1,7 +1,7 @@
 {
   "name": "git-practice",
   "version": "0.1.0",
-  "homepage": "https://Nurtimax.github.io/git-practice",
+  "homepage": "https://Nurtimax.github.io/homework-Number-4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
